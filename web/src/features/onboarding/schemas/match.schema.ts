@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-export const MAX_PHOTO_BYTES = 5 * 1024 * 1024;
+export const MAX_PHOTO_BYTES = 25 * 1024 * 1024;
 
 export const interestsSchema = z.array(
   z.string().trim().min(2, "Interests need at least 2 characters").max(32, "Keep each interest under 33 characters"),

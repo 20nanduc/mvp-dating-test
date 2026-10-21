@@ -4,7 +4,7 @@ const ACCEPTED_TYPES = [
   "image/webp",
 ];
 
-export const MAX_PHOTO_SIZE = 5 * 1024 * 1024;
+export const MAX_PHOTO_SIZE = 25 * 1024 * 1024;
 
 export type MatchImages = {
   full: Blob;
@@ -89,7 +89,7 @@ export async function createMatchImages(
   }
 
   if (file.size === 0 || file.size > MAX_PHOTO_SIZE) {
-    throw new Error("Photo must be under 5 MB");
+    throw new Error("Photo must be under 25 MB");
   }
 
   let image: ImageBitmap;
