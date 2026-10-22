@@ -11,7 +11,7 @@ Traditional dating applications often emphasize discovering more people, but con
 
 MVP-DATING explores a different approach: **mutual curiosity, intentional interactions, and thought-centered conversations.**
 
-### Our Goal
+### Goal
 
 Build an alternative dating experience where people connect through curiosity and develop relationships by exploring shared thoughts.
 
@@ -22,6 +22,10 @@ Instead of introducing complex matchmaking algorithms, the MVP focuses on valida
 3. **Intentional progression:** Participants can propose and explore new thoughts together rather than relying on endless, unstructured messages.
 
 ### Current Status
+
+1. Developed a just enough experience and launched as a Mobile first web and collect user experience.  
+
+
 
 🚀 **Launched — Early User Testing**
 
